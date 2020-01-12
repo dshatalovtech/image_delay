@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<title>Image Delay</title>
+<body>
+
+	<ul class="delay_images_example">
+		<li>
+			<div class="image_label">#1, Captain, 1s</div>
+			<div class="delayed_image" data-src="images/captain.jpg" data-delay="1000"></div>
+		</li>
+		<li>
+			<div class="image_label">#2, Coffee, 3s</div>
+			<div class="delayed_image" data-src="images/coffee.jpg" data-delay="3000"></div>
+		</li>
+		<li>
+			<div class="image_label">#3, Harry, 5s</div>
+			<div class="delayed_image" data-src="images/harry.jpg" data-delay="5000"></div>
+		</li>
+		<li>
+			<div class="image_label">#4, Viking Girl, 8s</div>
+			<div class="delayed_image" data-src="images/viking-girl.jpg" data-delay="8000"></div>
+		</li>		
+	</ul>
+
+	<script src="image_delay.js"></script>
+
+	<script>
+		var image_delay = new ImageDelay();
+		image_delay.init();
+	</script>
+</body>
+</html>
